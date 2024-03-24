@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: 250px 1116px;
+  grid-template-rows: 941px;
+
+  width: 1366px;
+  height: 941px;
+  margin: 20px auto;
+
+  background: rgb(255 255 255);
+  border-radius: 30px;
+  box-shadow: 0 4px 50px 0 rgba(0 0 0 / 10%);
+}

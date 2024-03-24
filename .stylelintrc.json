@@ -1,0 +1,28 @@
+{
+  "extends": [
+		"stylelint-config-standard",
+		"stylelint-config-clean-order",
+    "stylelint-config-sass-guidelines"
+	],
+	"plugins": [
+		"stylelint-order"
+	],
+	"rules": {
+    "selector-class-pattern": [
+			"^[a-zA-Z0-9]+(?:__[a-zA-Z0-9]+)*(?:_[a-zA-Z0-9]+)*$",
+      {
+        "resolveNestedSelectors": true
+      }
+    ],
+		"declaration-property-value-disallowed-list": [
+      {
+				"properties": ["border"],
+        "values": ["none"]
+      }
+    ],
+		"selector-max-compound-selectors": [5, {
+      "severity": "warning"
+    }],
+		"max-nesting-depth": null
+  }
+}

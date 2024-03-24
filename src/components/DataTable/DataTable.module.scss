@@ -1,0 +1,30 @@
+.dataTable {
+  &__container {
+    width: 1116px;
+    background-color: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+  }
+
+  &__searchResult {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 31px;
+
+    &Type {
+      font-family: Roboto, sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      color: rgb(64 77 97);
+    }
+
+    &Amount {
+      margin-top: 3px;
+
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: rgb(117 125 138);
+    }
+  }
+}
